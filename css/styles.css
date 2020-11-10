@@ -1335,13 +1335,48 @@ input[type='checkbox'] {
   position: relative;
   left: 10px;
 }
-
 .basic-4 .supported-os-icon {
+	position: relative;
+	top: 5px;
+	font-size: 30px;
+	margin-left: 10px;
+	color: rgba(255,255,255,0.5);
+  }
+.basic-5 .supported-os-icon {
   position: relative;
   top: 5px;
   font-size: 30px;
   margin-left: 10px;
   color: rgba(255,255,255,0.5);
+}
+
+.basic-5 {
+	padding-top: 6.5rem;
+	padding-bottom: 6.75rem;
+  background: linear-gradient(to right, #8E2DE2, #0b2c48); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.basic-5 .text-container {
+	margin-bottom: 3.5rem;
+	text-align: left;
+}
+
+.basic-5 h2 {
+	margin-top: 2.8rem;
+	margin-bottom: 1.25rem;
+}
+
+.basic-5 .p-large {
+	margin-bottom: 1.75rem;
+}
+
+.basic-5 .btn-solid-lg {
+	margin-bottom: 1.25rem;
+}
+
+.basic-5 .release-notes{
+  position: relative;
+  left: 10px;
 }
 
 /**************************/
@@ -2032,7 +2067,7 @@ a:hover.back-to-top {
 
 	/* Header */
 	.header .text-container {
-		margin-top: 7.5rem;
+		margin-top: 0rem;
 		margin-left: 2.5rem;
 	}
 
@@ -2129,6 +2164,9 @@ a:hover.back-to-top {
 	}
 
 	.basic-4 .image-container {
+		margin-left: 3rem;
+	}
+	.basic-5 .image-container {
 		margin-left: 3rem;
 	}
 	/* end of download */
